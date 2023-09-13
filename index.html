@@ -7,3 +7,43 @@ Challenge 4: When the form is submitted, get the user's response and add the sam
 -->
 
 <!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1>Sample Form
+    </h1>
+    <form action="mailto: sp577152@gmail.com" method="post" enctype="text/plain">
+
+        <div class="name">
+            <label for="User"><b>Fullname: </b></label>
+            <input type="text" value="" id="User" name="User">
+        </div>
+        <div class="radio">
+            <label for=""><br><b>Are you interested in Fun activity</b><br></label>
+            <label for="yes">YES</label>
+            <input type="radio" value="Yes" id="yes" name="Yes"><br>
+            <label for="no">NO</label>
+            <input type="radio" value="No" id="no" name="No">
+        </div><br>
+        <div class="check">
+            <label for=""><b>Choose a Fun activity</b><br></label>
+            <label for="TD">Truth Or Dare</label>
+            <input type="checkbox" name="Truth Or Dare" id="TD"><br>
+            <label for="DC">DumbCharades</label>
+            <input type="checkbox" name="" id="DC"><br>
+            <label for="TD">Musical Chair</label>
+            <input type="checkbox" name="" id="MC"><br>
+
+        </div>
+        <div class="footer">
+            <input type="reset"><br><br>
+            <input type="submit" value="Send">
+        </div>
+    </form>
+</body>
+</html>
